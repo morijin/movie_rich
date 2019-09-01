@@ -1,0 +1,25 @@
+.movie__cover{
+    position:relative;
+    float:left;
+    width:50%;
+    height:300px;
+    color:grey;
+}
+.movie__cover .inner__movie{
+    margin-left:20px;
+    padding:10px 10px 10px 150px;
+    height:260px;
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.39);
+    box-sizing:border-box;
+}
+.movie__cover img{
+    position:absolute;
+    top:-20px;
+    left:40px;
+    width:100px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+}
+.movie__cover .movie__title{
+    font-size:20px;
+    color:#000;
+}
